@@ -2,9 +2,7 @@ import { getRestaurantById } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
-import { AddToCartButton } from './_components/AddToCartButton';
 import { RecommendationTool } from '@/components/RecommendationTool';
-import { MenuItemCard } from '@/components/MenuItemCard';
 
 export default function RestaurantPage({ params }: { params: { id: string } }) {
   const restaurant = getRestaurantById(params.id);
@@ -59,9 +57,6 @@ export default function RestaurantPage({ params }: { params: { id: string } }) {
                 <CardContent className="flex-grow">
                   <p className="font-semibold text-lg text-primary">${item.price.toFixed(2)}</p>
                 </CardContent>
-                <CardFooter>
-                  <AddToCartButton item={item} />
-                </CardFooter>
               </Card>
             ))}
           </div>

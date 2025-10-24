@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import type { MenuItem } from '@/lib/types';
-import { AddToCartButton } from '@/app/restaurants/[id]/_components/AddToCartButton';
 
 interface MenuItemCardProps {
   item: MenuItem;
@@ -18,9 +17,6 @@ export function MenuItemCard({ item }: MenuItemCardProps) {
         <CardContent>
           <p className="font-semibold text-lg text-primary">CA${item.price.toFixed(2)}</p>
         </CardContent>
-        <CardFooter>
-           <AddToCartButton item={item} />
-        </CardFooter>
       </div>
       <div className="relative h-48 w-full md:w-48 md:h-auto flex-shrink-0">
         <Image

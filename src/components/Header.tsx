@@ -1,14 +1,9 @@
 "use client";
 
 import Link from 'next/link';
-import { ShoppingCart, UtensilsCrossed } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetTrigger, SheetContent } from '@/components/ui/sheet';
-import { useCart } from '@/hooks/useCart';
-import { Cart } from '@/components/Cart';
+import { UtensilsCrossed } from 'lucide-react';
 
 export function Header() {
-  const { cartCount } = useCart();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -24,22 +19,6 @@ export function Header() {
           <Link href="/about" className="transition-colors hover:text-primary">About Us</Link>
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <Sheet>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="relative">
-                <ShoppingCart className="h-5 w-5" />
-                {cartCount > 0 && (
-                  <span className="absolute -top-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-xs text-primary-foreground">
-                    {cartCount}
-                  </span>
-                )}
-                <span className="sr-only">Open cart</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent className="flex flex-col">
-              <Cart />
-            </SheetContent>
-          </Sheet>
         </div>
       </div>
     </header>

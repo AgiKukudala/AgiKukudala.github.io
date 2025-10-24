@@ -16,7 +16,3 @@ export type Restaurant = {
   imageHint: string;
   menu: MenuItem[];
 };
-
-export type CartItem = MenuItem & {
-  quantity: number;
-};
