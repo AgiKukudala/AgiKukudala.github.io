@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle, CardFooter } from '@/components/ui/card';
 import { AddToCartButton } from './_components/AddToCartButton';
 import { RecommendationTool } from '@/components/RecommendationTool';
+import { MenuItemCard } from '@/components/MenuItemCard';
 
 export default function RestaurantPage({ params }: { params: { id: string } }) {
   const restaurant = getRestaurantById(params.id);

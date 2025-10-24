@@ -1,5 +1,5 @@
-import { RestaurantCard } from "@/components/RestaurantCard";
-import { restaurants } from "@/lib/data";
+import { MenuItemCard } from "@/components/MenuItemCard";
+import { popularItems } from "@/lib/data";
 import { UtensilsCrossed } from "lucide-react";
 import { ContactForm } from "@/components/ContactForm";
 
@@ -17,15 +17,16 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold tracking-tight font-headline mb-8">Our Restaurants</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {restaurants.map((restaurant) => (
-            <RestaurantCard key={restaurant.id} restaurant={restaurant} />
+        <h2 className="text-3xl font-bold tracking-tight font-headline mb-2">Popular Items</h2>
+        <p className="text-muted-foreground mb-8">The most commonly ordered items and dishes from this store</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {popularItems.map((item) => (
+            <MenuItemCard key={item.id} item={item} />
           ))}
         </div>
       </section>
 
-      <section className="py-16 mt-8 bg-card border rounded-lg shadow-lg">
+      <section className="py-16 mt-16 bg-card border rounded-lg shadow-lg">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold tracking-tight font-headline mb-4">
             Optimize Your Online Ordering with AI

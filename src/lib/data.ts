@@ -1,4 +1,4 @@
-import type { Restaurant } from './types';
+import type { Restaurant, MenuItem } from './types';
 import { PlaceHolderImages } from './placeholder-images';
 
 const getImage = (id: string) => {
@@ -15,40 +15,50 @@ const getImage = (id: string) => {
   };
 };
 
+export const popularItems: MenuItem[] = [
+  {
+    id: 'waziri-tandoori-din',
+    name: 'Waziri Tandoori Din',
+    description: 'Includes rice, salad and fresh naan. One skewer of tandori kabob and one shish...',
+    price: 15.99,
+    image: getImage('waziri-tandoori-din').url,
+    imageHint: getImage('waziri-tandoori-din').hint,
+  },
+  {
+    id: 'waziri-classic-din',
+    name: 'Waziri Classic Din',
+    description: 'Includes rice, salad and fresh naan. One skewer of chicken kabob and one shish...',
+    price: 15.99,
+    image: getImage('waziri-classic-din').url,
+    imageHint: getImage('waziri-classic-din').hint,
+  },
+  {
+    id: 'tandoori-din',
+    name: 'Tandoori Din',
+    description: 'Includes rice, salad and fresh naan. Pieces of boneless chicken breast marinated in spicy...',
+    price: 14.49,
+    image: getImage('tandoori-din').url,
+    imageHint: getImage('tandoori-din').hint,
+  },
+  {
+    id: 'nk-grill-din',
+    name: 'NK Grill Din',
+    description: 'Chicken Breast + Tandoori Breast + Ground Beef Kabobs with Salad and Fresh bread...',
+    price: 19.99,
+    image: getImage('nk-grill-din').url,
+    imageHint: getImage('nk-grill-din').hint,
+  },
+]
+
 export const restaurants: Restaurant[] = [
   {
-    id: 'bella-italia',
-    name: 'Bella Italia',
-    description: 'Authentic Italian cuisine in a cozy and romantic atmosphere.',
-    longDescription: 'Step into Bella Italia and be transported to the heart of Italy. Our family-owned restaurant prides itself on using the freshest ingredients, traditional recipes passed down through generations, and a passion for creating memorable dining experiences. From our handmade pasta to our wood-fired pizzas, every dish is a celebration of Italian flavor.',
-    image: getImage('restaurant-1').url,
-    imageHint: getImage('restaurant-1').hint,
-    menu: [
-      {
-        id: 'pasta-carbonara',
-        name: 'Spaghetti Carbonara',
-        description: 'Classic spaghetti with pancetta, eggs, pecorino cheese, and black pepper.',
-        price: 18.50,
-        image: getImage('menu-pasta').url,
-        imageHint: getImage('menu-pasta').hint,
-      },
-      {
-        id: 'margherita-pizza',
-        name: 'Margherita Pizza',
-        description: 'Wood-fired pizza with San Marzano tomatoes, fresh mozzarella, basil, and olive oil.',
-        price: 16.00,
-        image: getImage('menu-pizza').url,
-        imageHint: getImage('menu-pizza').hint,
-      },
-      {
-        id: 'tiramisu',
-        name: 'Tiramisu',
-        description: 'A creamy dessert of espresso-soaked ladyfingers and mascarpone cheese.',
-        price: 9.00,
-        image: getImage('menu-tiramisu').url,
-        imageHint: getImage('menu-tiramisu').hint,
-      },
-    ],
+    id: 'persian-palace',
+    name: 'Persian Palace',
+    description: 'Authentic Persian cuisine with a modern twist.',
+    longDescription: 'Experience the rich flavors of Persia. Our menu features a wide variety of kabobs, stews, and rice dishes, all prepared with the freshest ingredients and traditional spices. Join us for a memorable dining experience.',
+    image: getImage('restaurant-persian').url,
+    imageHint: getImage('restaurant-persian').hint,
+    menu: popularItems,
   },
   {
     id: 'sushi-house',
