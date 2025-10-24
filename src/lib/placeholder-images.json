@@ -1,3 +1,88 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "restaurant-1",
+      "description": "Exterior of a cozy Italian restaurant at dusk",
+      "imageUrl": "https://images.unsplash.com/photo-1534650075489-3baecec1e8b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpdGFsaWFuJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjExODg3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "italian restaurant"
+    },
+    {
+      "id": "restaurant-2",
+      "description": "Modern and clean interior of a Japanese sushi restaurant",
+      "imageUrl": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdXNoaSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYxMjMyNTUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi restaurant"
+    },
+    {
+      "id": "restaurant-3",
+      "description": "A classic American diner with retro styling",
+      "imageUrl": "https://images.unsplash.com/photo-1669982920227-d492e9466073?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhbWVyaWNhbiUyMGRpbmVyfGVufDB8fHx8MTc2MTE5NjQ2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "american diner"
+    },
+    {
+      "id": "menu-pasta",
+      "description": "A plate of spaghetti carbonara with parmesan cheese",
+      "imageUrl": "https://images.unsplash.com/photo-1574969903809-3f7a1668ceb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwYXN0YSUyMGNhcmJvbmFyYXxlbnwwfHx8fDE3NjExOTEyODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pasta carbonara"
+    },
+    {
+      "id": "menu-pizza",
+      "description": "A classic margherita pizza with fresh basil",
+      "imageUrl": "https://images.unsplash.com/photo-1564936281291-294551497d81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYXJnaGVyaXRhJTIwcGl6emF8ZW58MHx8fHwxNzYxMTc0NDA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "margherita pizza"
+    },
+    {
+      "id": "menu-tiramisu",
+      "description": "A slice of tiramisu dessert on a plate",
+      "imageUrl": "https://images.unsplash.com/photo-1568627175730-73d05bd69ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0aXJhbWlzdSUyMGRlc3NlcnR8ZW58MHx8fHwxNzYxMjc4OTYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tiramisu dessert"
+    },
+    {
+      "id": "menu-sushi-set",
+      "description": "A platter of assorted sushi rolls and nigiri",
+      "imageUrl": "https://images.unsplash.com/photo-1677632227496-be77ffe5e13d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdXNoaSUyMHBsYXR0ZXJ8ZW58MHx8fHwxNzYxMjAwODY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sushi platter"
+    },
+    {
+      "id": "menu-ramen",
+      "description": "A steaming bowl of tonkotsu ramen with pork and egg",
+      "imageUrl": "https://images.unsplash.com/photo-1697652973385-ccf1e85496b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyYW1lbiUyMGJvd2x8ZW58MHx8fHwxNzYxMjA0ODE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ramen bowl"
+    },
+    {
+      "id": "menu-mochi",
+      "description": "Colorful mochi ice cream balls",
+      "imageUrl": "https://images.unsplash.com/photo-1582604765702-35def506802d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtb2NoaSUyMGljZWNyZWFtfGVufDB8fHx8MTc2MTI3ODk2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mochi icecream"
+    },
+    {
+      "id": "menu-burger",
+      "description": "A juicy cheeseburger with fries",
+      "imageUrl": "https://images.unsplash.com/photo-1582762147076-6d985d99975a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGVlc2VidXJnZXIlMjBmcmllc3xlbnwwfHx8fDE3NjEyMDExMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheeseburger fries"
+    },
+    {
+      "id": "menu-milkshake",
+      "description": "A tall glass of strawberry milkshake with whipped cream",
+      "imageUrl": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJhd2JlcnJ5JTIwbWlsa3NoYWtlfGVufDB8fHx8MTc2MTI3ODk2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strawberry milkshake"
+    },
+    {
+      "id": "menu-pie",
+      "description": "A slice of apple pie with a scoop of vanilla ice cream",
+      "imageUrl": "https://images.unsplash.com/photo-1562007908-17c67e878c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhcHBsZSUyMHBpZXxlbnwwfHx8fDE3NjEyNzg5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "apple pie"
+    },
+    {
+      "id": "about-us-hero",
+      "description": "A diverse team of chefs and staff working together in a kitchen",
+      "imageUrl": "https://images.unsplash.com/photo-1740205644713-3d98f188943a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxraXRjaGVuJTIwdGVhbXxlbnwwfHx8fDE3NjEyNTE0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen team"
+    },
+    {
+      "id": "404-image",
+      "description": "An empty plate with a fork and knife",
+      "imageUrl": "https://images.unsplash.com/photo-1652232564295-3f35b20f7699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxlbXB0eSUyMHBsYXRlfGVufDB8fHx8MTc2MTI0MDQ1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "empty plate"
+    }
+  ]
 }
