@@ -1,6 +1,7 @@
 import { RestaurantCard } from "@/components/RestaurantCard";
 import { restaurants } from "@/lib/data";
 import { UtensilsCrossed } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -21,6 +22,20 @@ export default function Home() {
           {restaurants.map((restaurant) => (
             <RestaurantCard key={restaurant.id} restaurant={restaurant} />
           ))}
+        </div>
+      </section>
+
+      <section className="py-16 mt-8 bg-card border rounded-lg shadow-lg">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold tracking-tight font-headline mb-4">
+            Optimize Your Online Ordering with AI
+          </h2>
+          <p className="mt-2 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto">
+            Interested in leveraging AI to boost your restaurant's efficiency and sales? Schedule a free consultation with our team.
+          </p>
+          <div className="mt-10 max-w-xl mx-auto">
+             <ContactForm />
+          </div>
         </div>
       </section>
     </div>
