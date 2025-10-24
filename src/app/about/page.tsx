@@ -41,7 +41,7 @@ export default function AboutPage() {
 
             <div>
               <h2 className="text-3xl font-bold font-headline text-primary">Our Founder</h2>
-              <p className="mt-4">FlavorLink was founded by Agastya Kukudala, a current high school senior with a passion for technology and gastronomy. His vision is to make personalized dining accessible to everyone, using AI to create a bridge between restaurants and diners.</p>
+              <p className="mt-4">FlavorLink was founded by Agastya Kukudala, a current high school senior with a passion for integrating technology with entrepreneurship. His vision is to make personalized dining accessible to everyone, using AI to create a bridge between restaurants and diners.</p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
